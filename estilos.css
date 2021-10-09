@@ -1,0 +1,221 @@
+img{
+    border-color: blueviolet;
+    border-style: double;
+    border-width: 5px;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    border: 5px solid black;
+    border-color:rgb(32, 178, 44);
+    border-style: inset;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+}
+
+h3{
+    font-family: fantasy;
+    color: midnightblue;
+}
+
+h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+    background: linear-gradient(to right, aquamarine, rgb(16, 148, 75));
+    color: darkslategrey;
+}
+
+ul{
+    font-family: cursive;
+    text-shadow: 0.1em 0.1em rgb(124, 120, 120);
+    transition: all 0.5s ease;
+}
+
+ol{
+    font-family: cursive;
+    text-shadow: 0.1em 0.1em rgb(124, 120, 120);
+    transition: all 0.5s ease;
+}
+
+.color1{
+    color: rgb(13, 235, 68);
+    font-weight: bold;
+
+}
+
+.color2{
+    color: rgb(235, 37, 136);
+    font-weight: bold;
+       
+}
+
+p{
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 25px;
+    text-shadow: 0.1em 0.1em rgb(124, 120, 120);
+    -webkit-text-stroke: 0.01em black;
+    margin: 30px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+ul:hover{
+    cursor: pointer;
+    font-size: large;
+    color: red;
+    transition: all 0.5s ease;
+}
+
+ol:hover{
+    cursor: pointer;
+    font-size: large;
+    color: royalblue;
+    transition: all 0.5s ease;
+}
+
+span:hover{
+    cursor: pointer;
+    font-family: initial;
+    color: lightseagreen;
+    font-size: larger;
+    transition: all 0.5s ease;
+}
+
+p:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+}
+body{
+    background: linear-gradient( to right, white, rgb(16, 148, 75));
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.container{
+    columns: 2;
+}
+
+@media screen and (min-width: 230px) and (max-width: 800px){
+
+    img{
+        border-color: blueviolet;
+        border-style: double;
+        border-width: 5px;
+        transform: scale(0.5);
+        transition: all 0.5s ease;
+        margin: 0px;
+        padding: 0px;
+        align-items: flex-start;
+    }
+
+    img:hover{
+        transform: scale(0.55);
+    }
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: linear-gradient(to right, lightblue, violet);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h3{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: green;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    h4{
+        font-family: 'Courier New', Courier, monospace;
+        background: linear-gradient(to right, rgb(225, 127, 255), rgb(16, 106, 148));
+        font-weight: bolder;
+        color: rgb(167, 36, 79);
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    ul{
+        font-family: cursive;
+        text-shadow: 0.1em 0.1em rgb(124, 124, 120);
+        transition: all 0.5s ease;
+        color: blueviolet;
+
+    }
+    
+    ol{
+        font-family: cursive;
+        text-shadow: 0.1em 0.1em rgb(124, 120, 120);
+        transition: all 0.5s ease;
+        color: blueviolet;
+    }
+    
+    .color1{
+        color: rgb(13, 235, 68);
+        font-weight: bold;
+        
+    }
+    
+    .color2{
+        color: rgb(235, 37, 136);
+        font-weight: bold;
+        transition: all 0.5s ease;    
+    }
+    
+    p{
+        font-family: 'Grechen Fuemen', cursive;
+        font-size: 25px;
+        text-shadow: 0.1em 0.1em rgb(124, 120, 120);
+        -webkit-text-stroke: 0.01em black;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+    }
+    
+    h5{
+        font-weight: bold;
+    }
+    
+    ul:hover{
+        cursor: pointer;
+        font-size: large;
+        color: red;
+        transition: all 0.5s ease;
+    }
+    
+    ol:hover{
+        cursor: pointer;
+        font-size: large;
+        color: royalblue;
+        transition: all 0.5s ease;
+    }
+    
+    span:hover{
+        cursor: pointer;
+        font-family: initial;
+        color: lightseagreen;
+        font-size: larger;
+        transition: all 0.5s ease;
+    }
+
+    .container{
+        columns: 1;
+    }
+      
+    
+    
+  
+}
